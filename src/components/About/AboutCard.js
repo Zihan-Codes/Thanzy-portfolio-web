@@ -2,7 +2,6 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 import WhatsAppButton from "../Contact/WhatsAppButton";
-import zihan2 from "../../Assets/zihan2.png";
 
 function AboutCard() {
   return (

@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
 import About from "./components/About/About";
-import AllProjects from "./components/Projects/AllProjects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import Header from "./components/Header";
