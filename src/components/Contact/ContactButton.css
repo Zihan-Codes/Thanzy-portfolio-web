@@ -1,0 +1,109 @@
+/* WhatsAppButton.css */
+.whatsapp-button {
+  position: fixed;
+  bottom: 30%;
+  right: 20px;
+  background-color: #25d366;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #128c7e;
+  }
+}
+
+@media (max-width: 767px) {
+  .whatsapp-button {
+    padding: 8px;
+    right: 8px;
+  }
+}
+
+/* CallButton.css */
+.call-button {
+
+  position: fixed;
+  bottom: 40%; 
+  right: 20px;
+  background-color: #007bff; 
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #0056b3; 
+  }
+
+}
+
+@media (max-width: 767px) {
+  .call-button {
+    padding: 8px;
+    right: 8px;
+  }
+}
+
+/* EmailButton.css */
+.email-button {
+  position: fixed;
+  bottom: 20%; /* Adjust so it doesn't overlap with WhatsApp button */
+  right: 20px;
+  background-color: #007bff; /* Example color for email button */
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+  }
+}
+
+@media (max-width: 767px) {
+  .email-button {
+    padding: 8px;
+    right: 8px;
+    /* bottom: 20%; */
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .whatsapp-button {
+    font-size: 40px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    right: 10px;
+  }
+
+  .email-button {
+    font-size: 40px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    right: 10px;
+  }
+
+  .call-button {
+    font-size: 40px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    right: 10px;
+  }
+}
+
+
